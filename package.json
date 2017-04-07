@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"satelize",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "satelize",
+    "description": "api documentation for [satelize (v0.2.0)](https://github.com/darul75/satelize) [![npm package](https://img.shields.io/npm/v/npmdoc-satelize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-satelize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-satelize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-satelize)",
     "devDependencies": {
-        "satelize": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "satelize": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-satelize",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-satelize",
+    "keywords": [
+        "documentation",
+        "satelize"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_satelize.js",
+    "name": "npmdoc-satelize",
+    "nameAlias": "npmdoc_satelize",
+    "nameOriginal": "npmdoc-satelize",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-satelize"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
