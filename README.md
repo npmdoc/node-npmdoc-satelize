@@ -1,9 +1,14 @@
-# api documentation for  [satelize (v0.2.0)](https://github.com/darul75/satelize)  [![npm package](https://img.shields.io/npm/v/npmdoc-satelize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-satelize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-satelize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-satelize)
+# npmdoc-satelize
+
+#### api documentation for  [satelize (v0.2.0)](https://github.com/darul75/satelize)  [![npm package](https://img.shields.io/npm/v/npmdoc-satelize.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-satelize) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-satelize.svg)](https://travis-ci.org/npmdoc/node-npmdoc-satelize)
+
 #### Get location details (latitude, longitude...) from IP visitor, server side NodeJS module
 
-[![NPM](https://nodei.co/npm/satelize.png?downloads=true)](https://www.npmjs.com/package/satelize)
+[![NPM](https://nodei.co/npm/satelize.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/satelize)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-satelize/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-satelize_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-satelize/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-satelize/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-satelize/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-satelize/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-satelize/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-satelize/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Julien Valéry",
-        "email": "darul75@gmail.com"
+        "name": "Julien Valéry"
     },
     "bugs": {
         "url": "https://github.com/darul75/satelize/issues"
@@ -54,13 +58,11 @@
     "main": "./src/satelize",
     "maintainers": [
         {
-            "name": "darul75",
-            "email": "darul@gmail.com"
+            "name": "darul75"
         }
     ],
     "name": "satelize",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/darul75/satelize.git"
@@ -71,18 +73,6 @@
     "version": "0.2.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module satelize](#apidoc.module.satelize)
-1.  boolean <span class="apidocSignatureSpan">satelize.</span>initialized
-1.  object <span class="apidocSignatureSpan">satelize.</span>db
-
-
-
-# <a name="apidoc.module.satelize"></a>[module satelize](#apidoc.module.satelize)
 
 
 
